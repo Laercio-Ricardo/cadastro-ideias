@@ -1,0 +1,29 @@
+
+p{
+text-align: center;
+
+}      
+button{
+    color: #ff5E84;
+    border: none;
+    font-weight: bold;
+    background: none;
+
+}
+.fat {
+color: rgb(250, 244, 244);
+background: rgb(236, 140, 156);
+}
+
+
+body{
+    
+    background: rgb(250, 253, 251);
+    font-family: 'Roboto Condensed', sans-serif;    
+    font-size: 20px;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    background-image: url();
+    background-size: cover;
+
+}
