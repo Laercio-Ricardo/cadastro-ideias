@@ -1,19 +1,26 @@
 body{
     
-    background: rgb(250, 253, 251);
-    font-family: 'Roboto Condensed', sans-serif;    
-    font-size: 20px;
+    background: white;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 18px;
     color: rgb(7, 7, 7);
-    background-image: url();
-    background-size: cover;
     margin: 0;
     
 
 }
-a {
+a{
     color: #ff5E84;
     font-weight: bold;
+    text-decoration: none;
 }
+
+p, .description{
+
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
 main{
   margin-top: 32px 0;
 
@@ -30,6 +37,9 @@ button{
     background: none;
     cursor: pointer;
     outline: none;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
 
 
 }
@@ -64,6 +74,7 @@ background: rgb(236, 140, 156);
         display: flex;
         justify-content: space-evenly;
         font-weight: bold;
+        
 }
 #container{
 
@@ -78,4 +89,84 @@ background: rgb(236, 140, 156);
 #intro{
     width: 300px;
     margin-right: 20px;
+}
+
+.ideias{
+
+    display: flex;
+    margin-bottom: 32px;
+    background-color: white;
+    border: 2px solid rgba(255, 0, 92, 0.25);
+    border-radius: 8px;
+    padding: 32;
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 1)
+    
+}
+.ideias img{
+
+    width: 60px;
+    height: 60px;
+    margin-right: 32px;
+}
+
+.ideias h3{
+    margin: 0;
+    text-align: center;
+}
+
+.ideias p{
+
+margin: 8px 0px;
+color: #777;
+font-weight: bold;
+
+}
+
+.ideia .description{
+
+    margin: 16px 0px;
+}
+
+/* Aqui eu vou editar a div modal */
+
+#modal{
+    background: #ff5E84;
+    position: absolute;
+    top: 0px;
+
+    width: 100vw;
+    height: 100vw;
+
+    display: flex;
+    justify-content: center;
+}
+
+#modal .content{
+
+    margin-top: 128px;
+    color: white;
+}
+
+#modal .content h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#modal form{
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+form input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid rgba(141, 25, 52, 1);
+}
+
+.input-wrapper{
+
+    margin: 16px 0;
 }
