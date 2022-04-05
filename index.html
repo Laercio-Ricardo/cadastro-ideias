@@ -6,6 +6,7 @@
 <head>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    
 
 
 
@@ -21,6 +22,7 @@
 </head>
 
 <body>
+    
     <div id="container">
         <section id="intro">
 
@@ -43,7 +45,7 @@
                 <p class="fat">
 
                 </p>
-                <button>+ Adicionar ideias</button>
+                <button onclick="onOff()">+ Adicionar ideias</button>
                 <button class="fat">Ver ideias</button><br>
 
             </section>
@@ -59,9 +61,7 @@
                     <h3>Cursos de programação</h3>
                     <p>Estudo</p>
                     <div class="description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, hic labore ipsa, quas
-                        debitis accusantium soluta, libero eum dignissimos exercitationem nemo. Perspiciatis expedita
-                        quod assumenda sed accusamus? Laudantium, porro quam!
+                        Cursos texto
                     </div>
                     <a href="#">Ir para a ideia</a>
 
@@ -80,9 +80,7 @@
                     <h3>Exercícios ao ar livre</h3>
                     <p>Saúde</p>
                     <div class="description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, hic labore ipsa, quas
-                        debitis accusantium soluta, libero eum dignissimos exercitationem nemo. Perspiciatis expedita
-                        quod assumenda sed accusamus? Laudantium, porro quam!
+                        Exercicios ao ar livre texto
                     </div>
                     <a href="#">Ir para a ideia</a>
 
@@ -101,9 +99,7 @@
                     <h3>Lugares para conhecer</h3>
                     <p>Viagens</p>
                     <div class="description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, hic labore ipsa, quas
-                        debitis accusantium soluta, libero eum dignissimos exercitationem nemo. Perspiciatis expedita
-                        quod assumenda sed accusamus? Laudantium, porro quam!
+                        Cidades para conhecer
                     </div>
                     <a href="#">Ir para a ideia</a>
 
@@ -111,7 +107,7 @@
                 </div>
         </section>
     </div>
-    <div id="modal">
+    <div id="modal" class="hide">
         <div class="content">
             <h1> Nova Ideia</h1>
             <form action="">
@@ -143,6 +139,7 @@
                 
                 
                 </div>
+                <a href="#" onclick="onOff()">Voltar</a>
                 <button>Salvar</button>
 
 

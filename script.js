@@ -1,6 +1,11 @@
-document
-.querySelector("button.fat")
-.addEventListener("click", function(){
+function onOff(){
+
+     document
+     .querySelector("#modal")
+      .classList
+      .toggle("hide")
 
 
-})
+}
+
+
