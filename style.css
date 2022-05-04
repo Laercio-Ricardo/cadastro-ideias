@@ -1,13 +1,16 @@
 body{
     
-    background: white;
+    background: black;
     font-family: 'Montserrat', sans-serif;   
     font-size: 18px;
-    color: rgb(7, 7, 7);
+    color: white;
     margin: 0;
+    
+    
     
 
 }
+
 a{
     color: #ff5E84;
     font-weight: bold;
@@ -95,7 +98,7 @@ background: rgb(236, 140, 156);
 
     display: flex;
     margin-bottom: 32px;
-    background-color: white;
+    background-color: black;
     border: 2px solid rgba(255, 0, 92, 0.25);
     border-radius: 8px;
     padding: 32;
@@ -130,7 +133,7 @@ font-weight: bold;
 /* Aqui eu vou editar a div modal - Laércio */
 
 #modal{
-    background: #ff5E84;
+    background: black;
     position: absolute;
     top: 0px;
 
@@ -239,4 +242,7 @@ visibility: hidden;
 
 
 }
-    
+ img{
+     border-radius: 30px;
+ }  
+ 
